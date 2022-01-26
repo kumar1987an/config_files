@@ -77,13 +77,13 @@ div.cell {
     top: 0;
 }
 
-div.cell.selected, div.cell.selected.jupyter-soft-selected {
+/* div.cell.selected, div.cell.selected.jupyter-soft-selected {
     border: none;
     background: transparent;
     box-shadow: 0 6px 18px #aaa;
     z-index: 10;
     top: -30px;
-}
+} */
 
 .output {
     align-items: left;
