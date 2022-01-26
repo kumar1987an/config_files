@@ -1,0 +1,129 @@
+#ipython-main-app {
+    position: relative;
+}
+
+#jupyter-main-app {
+    position: relative;
+}
+
+#ipython_notebook img{                                                                                        
+    display:block; 
+    background: url("we_learn_python_banner.png") no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body > #header {
+    background: #ecf0f1;
+}
+
+#notebook_name {
+    font-weight: 500;
+    color: "black";
+}
+
+.checkpoint_status,
+.autosave_status {
+    color:  #00695c;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a, #kernel_indicator {
+    color: #00695c;
+    transition: all 0.05s;
+}
+
+.navbar-default .navbar-nav > li > a:hover, #kernel_indicator:hover{
+    border-bottom: 2px solid #fff;
+    color: white;
+}
+
+.notebook_app {
+    background: white !important;
+}
+
+
+.container {
+    width: 80% !important;
+}
+
+div.input_area {
+    border: none;
+    border-radius: 0;
+    background: #f7f7f7;
+    line-height: 1.5em;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+#notebook-container{
+    box-shadow: none !important;
+    background-color: white;
+}
+
+div.cell {
+    transition: all 0.25s;
+    border: none;
+    position: relative;
+    top: 0;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border: none;
+    background: transparent;
+    box-shadow: 0 6px 18px #aaa;
+    z-index: 10;
+    top: -30px;
+}
+
+.output {
+    align-items: left;
+    font-size: 19px;
+    font-weight: 800;
+    color: #388e3c;
+}
+
+.dataframe { /* dataframe atau table */
+    background: white;
+    box-shadow: 0px 1px 2px #bbb;
+}.dataframe thead th, .dataframe tbody td {
+    text-align: center;
+    padding: 1em;
+}
+
+div.prompt,
+div.tooltiptext pre {
+    display:none
+}
+
+/*===========================*/
+
+div.CodeMirror, pre{
+  font-family: 'MerriweatherSans', monospace !important;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.CodeMirror-linenumber {
+    padding: 0px 10px 0px 0px;
+    box-sizing: inherit;
+}
+
+
+.edit_mode div.cell.selected {
+    border-color: #9524a3;
+    border-left-width: 5px;
+    padding-left: 0px;
+    background: #e0e0e0;
+    box-shadow: 1px 1px 20px 5px #689f38;
+    border-radius: 3px;
+}
